@@ -29,7 +29,7 @@ $(document).ready(function () {
     var newMovie = $(this).attr("data-name");
 
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-      newMovie + "&api_key=dc6zaTOxFJmzC&limit=10";
+      newMovie + "&api_key=fVSDoG4zKMAt4PpaSagp27HgL1VDDhj4&limit=10";
 
     $.ajax({
       url: queryURL,
@@ -59,3 +59,4 @@ $(document).ready(function () {
   });
 });
 
+// Still Need to figure out how to add the designation original_still from the api docs 
